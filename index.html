@@ -1,0 +1,138 @@
+<html>
+	<head>
+		<title>Scapic Assignment</title>
+		<!-- Developed By Dilip kumar email: Dnishad66@gmail.com contact: +919611431781 -->
+		<style>
+			body {
+				margin: 0px;
+				background-color: #ffffff;
+				color: #fff;
+				font-family:Monospace;
+				text-align: center;
+				font-size: 15px;
+				line-height: 30px;
+				overflow: hidden;
+			}
+			h3{
+				position:absolute;
+				width:150px;
+				height:25px;
+				margin-top:45%;
+				margin-left:80%;
+			}
+			.icons-container{
+				position: absolute;
+				width: 120px;
+				overflow: auto;
+				height: 100%;
+				background: white;
+			}
+			img{
+				width:70px;
+				border: solid 1px #000;
+				padding: 6px;
+				height:70px;
+				cursor: pointer;}
+			#GLB_export{
+				position: absolute;
+				bottom: 23px;
+				right: 76px;
+				}
+			.color{
+				position:absolute;
+				width:250px;
+				height:40px;
+				margin-left:80%;
+			}
+			.transform{
+				position:absolute;
+				width:100px;
+				height:150px;
+				margin-left:88%;
+				margin-top:3%;
+			}
+			.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+		</style>
+	</head>
+		<script src="js/libs/three.min.js"></script> 
+		<script src="js/libs/OrbitControls.js"></script> 
+		<script src="js/libs/OBJLoader.js"></script> 
+		<script src="js/libs/MTLLoader.js"></script> 
+		<script src="js/libs/jquery-1.11.3.js"></script> 
+		<script src="js/libs/GLTFExporter.js"></script>
+		<script src="js/libs/TransformControls.js"></script> 
+		<script src="js/models.js"></script> 
+		<script src="js/download.js"></script>
+		
+	<body>
+	<button id="GLB_export"  class="btn">Download</button><h3 id="size" style="color:#FF9800;;font-weight:bold">Size : </h3>
+		<div class="icons-container">				
+				<img id="0" src="icons/alienBones_NE.png"></img>
+				<img id="1" src="icons/barrelLarge_NE.png"></img>
+				<img id="2" src="icons/buildingCorner_SW.png"></img>
+				<img id="3" src="icons/buildingCorridor_NE.png"></img>
+				<img id="4" src="icons/buildingCorridorOpen_SE.png"></img>
+				<img id="5" src="icons/buildingCorridorOpenEnd_NW.png"></img>
+				<img id="6" src="icons/buildingOpen_SW.png"></img>
+				<img id="7" src="icons/consoleCorner_SE.png"></img>
+				<img id="8" src="icons/consoleScreen_SW.png"></img>
+				<img id="9" src="icons/crater_SE.png"></img>
+				<img id="11" src="icons/frameLow_NW.png"></img>
+				<img id="13" src="icons/metalFenceCorner_SE.png"></img>
+				<img id="14" src="icons/metalFenceDouble_SE.png"></img>
+				<img id="15" src="icons/metalStructure_NE.png"></img>
+				<img id="16" src="icons/metalStructureBottom_SE.png"></img>
+				<img id="26" src="icons/meteorFull_NW.png"></img>
+				<img id="27" src="icons/pipeOpening_SE.png"></img>
+				<img id="28" src="icons/portal_SW.png"></img>
+				<img id="29" src="icons/rocksOre_NE.png"></img>
+				<img id="30" src="icons/satelliteDishAntenna_NW.png"></img>
+				<img id="31" src="icons/satelliteDishLarge_NE.png"></img>
+				<img id="32" src="icons/spaceCraft1_NE.png"></img>
+				<img id="33" src="icons/spaceCraft2_NE.png"></img>
+				<img id="34" src="icons/spaceCraft3_NE.png"></img>
+				<img id="35" src="icons/spaceCraft5_NW.png"></img>
+				<img id="36" src="icons/stairsLong_SW.png"></img>
+				<img id="37" src="icons/stationLarge_NE.png"></img>
+			
+		</div>
+		<div class="color">
+			<button id="FF0000" class="btn">RED</button>
+			<button id="008000" class="btn">GREEN</button>
+			<button id="0000ff" class="btn"> BLUE</button>
+		</div>
+		<div class="transform">
+			<button id="translate" class="btn">MOVE</button></br></br>
+			<button id="rotate" class="btn">ROTATE</button></br></br>
+			<button id="scale" class="btn">SCALE</button>
+		</div>
+		
+	</body>
+	<script src="js/config.js"></script>
+	<script>
+	console.log("Developed By Dilip kumar email: Dnishad66@gmail.com contact: +919611431781");
+	</script>
+	<!-- Developed By Dilip kumar email: Dnishad66@gmail.com contact: +919611431781 -->
+	
+</html>
